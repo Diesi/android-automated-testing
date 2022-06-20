@@ -25,6 +25,11 @@ android {
         enabled = true
         enabledForTests = true
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
 
 dependencies {
